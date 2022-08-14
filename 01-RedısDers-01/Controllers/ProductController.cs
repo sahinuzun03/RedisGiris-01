@@ -3,6 +3,13 @@ using Microsoft.Extensions.Caching.Memory;
 
 namespace _01_RedısDers_01.Controllers
 {
+    //Burada Controller sınıfı açıldı sonrasında IMemoryCache interface'inin nesnesi üretildi ve constructorda içerisi dolduruldu.
+    //.NET Core 6 ' da builder.Services.AddMemoryCache ile servis eklendi.
+
+    //Get metodu ile Memory'e atılan veri çağırıldı Set Metodu ile memory'e veri atanması gerçekleştirildi.
+    //Örnek olarak biz burada veri Datetime.Now diyerek bugünün zamanını  set ettim ve Show metodunda Show ekranın memory'e atmış olduğum zaman bilgisini memory'den çektim ve ekranda gösterdim.
+
+    //MemoryCacheExpiration açmış olduğum cache'e süre vermek için nesnesini ürettim ve bu nesnenin propertylerinden AbsoluteExpiration ile belirli süre sonra silinmesini veya çağrıldıkça o sürenin arttırılmasını sağlayan SlidingExpiration metodu ile cache işleminin arttırılmasını sağladım.
     public class ProductController : Controller
     {
         private readonly IMemoryCache _memoryCache;
