@@ -22,4 +22,3 @@
 ### Yüksek Kullanılabilirlik
 #### Redis, yüksek düzeyde veri kullanılabilirliği sağlamak için yerleşik desteğe sahiptir. Şu anda Redis Sentinel olarak adlandırılan ve kullanılabilir durumda olan, ancak halen devam eden bir proje olarak kabul edilen yüksek kullanılabilirlikli bir çözüm vardır.
 
-## REDİSTE SAKLANAN VERİLERİN SÜREKLİ DEĞİŞEN VERİLER OLMAMASI GEREKMEKTEDİR. BUNUN NEDENİ VERİLER DEĞİŞTİĞİ ZAMAN BİZE HATAL VERİNİN GELMESİNE NEDEN OLABİLİR.
