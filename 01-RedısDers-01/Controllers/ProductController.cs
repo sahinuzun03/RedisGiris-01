@@ -99,5 +99,7 @@ namespace _01_RedısDers_01.Controllers
 
 
         //Memory'den veri silindiği zaman neye göre silindiğini (hangi sebepten) silindiğini görebiliyoruz. RegisterPostEvictionCallback bu işlemi yapmamızı sağlayan metot budur ve içerisine metot alır ya da sen () => {} -> şeklinde delegate olarak yazabilirsiin.
+
+        //Complext type caching --> Classlardan alınan nesne örneklerinin cachelenmesi işlemlerinin ifade eder.
     }
 }
