@@ -26,7 +26,7 @@ namespace RedisExchangeAPI.Web.Services
 
         }
 
-        public IDatabase GetD(int db) //Redis tarafındanbulunan 0-15 arasındaki dblerden 1 tanesini seçmek için kullanacağım yer.
+        public IDatabase GetDb(int db) //Redis tarafındanbulunan 0-15 arasındaki dblerden 1 tanesini seçmek için kullanacağım yer.
         {
             return _redis.GetDatabase(db);//Numarasını benim verdiğim DB'yi getirecek olan yer.
         }
